@@ -1,0 +1,15 @@
+h1 {
+    color: aqua;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+p {
+    background-color: rgb(106, 168, 212);
+    color: rgb(40, 43, 43);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+pre {
+    background-color: aquamarine;
+}
