@@ -1,0 +1,17 @@
+body {
+    background-color: hsl(172, 100%, 50%);
+}
+
+h1 {
+    color: hsl(0, 100%, 34%);
+    background-color: hsl(284, 56%, 34%);
+}
+
+p {
+    background-color: hsl(0, 100%, 87%);
+}
+
+#para {
+    background-color: hsla(0, 100%, 84%, 0.9);
+    color: hsla(0, 34%, 17%, 0.9);
+}
