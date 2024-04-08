@@ -1,0 +1,9 @@
+body {
+    background-image: url(./img.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    /* background-position: center bottom;*/
+    /*background-position: left top;*/
+    background-attachment: fixed;
+    /*background-attachment: scroll;*/
+}

@@ -1,0 +1,50 @@
+         body {
+             background-color: rgb(21, 20, 20);
+             color: white;
+         }
+         
+         .back {
+             background-color: rgb(69, 99, 99);
+         }
+         
+         h2 {
+             background-color: aquamarine;
+         }
+         
+         #first {
+             background-color: green;
+             opacity: .1;
+         }
+         
+         #second {
+             background-color: green;
+             opacity: .3;
+         }
+         
+         #third {
+             background-color: green;
+             opacity: .6;
+         }
+         
+         #fourth {
+             background-color: green;
+             opacity: 1;
+             /*defult value is 1*/
+         }
+         
+         .first {
+             background-color: rgba(9, 51, 124, 0.1);
+         }
+         
+         .second {
+             background-color: rgba(9, 51, 124, 0.3);
+         }
+         
+         .third {
+             background-color: rgba(9, 51, 124, 0.6);
+         }
+         
+         .fourth {
+             background-color: rgba(9, 51, 124, 1);
+             /*defult value is 1*/
+         }

@@ -1,0 +1,7 @@
+body {
+    background-image: url(web\ image.webp);
+    background-repeat: repeat-y;
+    /*background-repeat: no-repeat*/
+    /*background-repeat: repeat-x;*/
+    background-position: right top;
+}
