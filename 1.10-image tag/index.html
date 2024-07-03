@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HTML Images</h1>
+    <h2>HTML Images Syntax</h2>
+    <p>The HTML img tag is used to embed an image in a web page. Images are not technically inserted into a web page; images are linked to web pages. The img tag creates a holding space for the referenced image. The <img> tag is empty, it contains attributes
+        only, and does not have a closing tag. <br> The img tag has two required attributes: <br> src - Specifies the path to the image <br> alt - Specifies an alternate text for the image</p>
+
+    <img src="url" alt="alternatetext">
+    <hr>
+    <hr>
+    <h2>The src Attribute</h2>
+    <p>The required src attribute specifies the path (URL) to the image. Note: When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make sure that the image actually stays
+        in the same spot in relation to the web page, otherwise your visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser cannot find the image.</p>
+    <img src="./bird1.jpg" alt="beautiful bird">
+    <hr>
+    <hr>
+    <h2>The alt Attribute</h2>
+    <p>The required alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader). The value of the alt attribute should
+        describe the image:</p>
+
+    <img src="./birb1.jpg" alt="beautiful bird">
+    <hr>
+    <hr>
+
+    <h2>Image Size - Width and Height</h2>
+    <p>You can use the style attribute to specify the width and height of an image.</p>
+    <img src="./bird2.jpeg" alt="nice bird" style="width:500px;height:600px;">
+    <p>Alternatively, you can use the width and height attributes:</p>
+    <img src="./bird2.jpeg" alt="nice bird" width="500" height="600">
+    <hr>
+    <hr>
+    <h2>Image as a Link</h2>
+    <p>To use an image as a link, put the img tag inside the a tag:</p>
+    <a href="./icon.html">
+        <img src="./bird4.jpg" alt="icon" style="width:42px;height:42px;">
+    </a>
+    <hr>
+    <hr>
+    <h2>Image Floating</h2>
+    <p>Use the CSS float property to let the image float to the right or to the left of a text:</p>
+    <p><img src="./bird4.jpg" alt="bird" style="float:right;width:42px;height:42px;"> The image will float to the right of the text.</p>
+    <p><img src="./bird4.jpg" alt="bird" style="float:left;width:42px;height:42px;"> The image will float to the left of the text.</p>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
