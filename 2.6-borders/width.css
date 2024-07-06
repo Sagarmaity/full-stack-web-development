@@ -1,0 +1,47 @@
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+p.four {
+    border-style: dotted;
+    border-width: medium;
+}
+
+p.five {
+    border-style: double;
+    border-width: 15px;
+}
+
+p.six {
+    border-style: double;
+    border-width: thick;
+}
+
+p.sa {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.wo {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.ree {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
